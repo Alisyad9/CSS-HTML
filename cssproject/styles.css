@@ -1,3 +1,22 @@
 h1 {
     color: crimson;
 }
+
+h2 {
+    color: green;
+}
+
+p,
+h3 {
+    color: gray;
+}
+
+#description {
+    color: purple;
+}
+
+/* css rule */
+/* selector */
+/* declaration block*/
+/* declaration */
+/* property */
