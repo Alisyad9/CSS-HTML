@@ -15,8 +15,30 @@ h3 {
     color: purple;
 }
 
+.green {
+    color: green;
+}
+
+.red {
+    color: red;
+}
+
+div {
+    background-color: rgba(0, 0, 255, 0.121);
+}
+
+.header_two p {
+    text-align: center;
+    color: yellow;
+}
+
+* {
+    color: rgb(227, 139, 24);
+}
+
 /* css rule */
 /* selector */
 /* declaration block*/
 /* declaration */
 /* property */
+/* id is always unique  */
