@@ -9,3 +9,9 @@
     height: 100vh;
     width: 100vw;
 }
+
+.hero2 {
+    background: blue;
+    height: 43vh;
+    width: 53vw;
+}
