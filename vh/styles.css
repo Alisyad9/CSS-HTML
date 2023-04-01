@@ -25,7 +25,8 @@
 
 .banner {
     background: red;
-    height: calc(100vh - 100px);
+    /* height: calc(100vh - 100px); */
+    min-height: calc(100vh - 100px);
 }
 
 /* the height of the div is defualt auto */
@@ -33,5 +34,6 @@
     background: rgb(128, 0, 34);
     width: 5rem;
     height: 25rem;
+    overflow: hidden;
     overflow: scroll;
 }
