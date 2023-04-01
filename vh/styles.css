@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -32,8 +34,14 @@
 /* the height of the div is defualt auto */
 .example {
     background: rgb(128, 0, 34);
-    width: 5rem;
+    width: 20rem;
     height: 25rem;
     overflow: hidden;
     overflow: scroll;
+}
+
+p {
+    font-family: cursive;
+
+    font-family: 'Abril Fatface', cursive;
 }
