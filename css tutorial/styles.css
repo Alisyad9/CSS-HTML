@@ -97,7 +97,13 @@ a {
 }
 
 #two {
-  border: 0.5rem solid red;
+
+  outline-width: 0.2rem;
+  outline-color: red;
+  outline-style: solid;
+  outline: 0.1rem solid blue;
+  outline-offset: -1rem;
+
 }
 
 #one {
