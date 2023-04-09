@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,500i,700|Trade+Winds&display=swap");
+
 /* 
 text-align, text-indent
 line-height - if number * by the font size 
@@ -5,8 +7,6 @@ letter-spacing
 word-spacing 
 text-decoration 
 text-transform 
-*/
-@import url("https://fonts.googleapis.com/css?family=Roboto:400,500i,700|Trade+Winds&display=swap");
 
 
 body {
@@ -39,4 +39,21 @@ h1 {
 .two {
   text-align: center;
   text-indent: 1rem;
+}
+*/
+/* body {
+  font-family: "Roboto", sans-serif;
+} */
+
+h1,
+h2 {
+  font-family: cursive;
+}
+
+.container {
+  color: red;
+}
+
+body {
+  font-family: Oxygen;
 }
