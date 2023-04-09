@@ -45,6 +45,10 @@ h1 {
   font-family: "Roboto", sans-serif;
 } */
 
+* {
+  margin: auto;
+}
+
 h1,
 h2 {
   font-family: cursive;
@@ -53,6 +57,7 @@ h2 {
 .container {
   color: green;
   padding: 0.5rem;
+  border: 3px solid yellow;
 }
 
 body {
@@ -61,4 +66,7 @@ body {
 
 p {
   background-color: gray;
+  padding: 20px;
+  border-style: dashed;
+  border-width: 10px;
 }
