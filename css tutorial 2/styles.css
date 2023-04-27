@@ -4,14 +4,63 @@ BLOCK : Always starts a new line and spans full width
 INLINE : Does not start a new line and spans only content
 
 */
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 
+.hello {
+    background-color: gray
+}
 
 .block {
     background-color: blue;
     color: white;
+    width: 300px;
+    margin: 0 auto;
 }
 
 .inline {
     background-color: black;
     color: white;
+}
+
+body {
+    text-align: center;
+}
+
+ul li {
+    list-style-type: none;
+    text-align: left;
+}
+
+ul li a {
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+    background-color: orange;
+    display: block;
+}
+
+.box-1,
+.box-2,
+.box-3 {
+    width: 300px;
+    height: 100px;
+    font-size: 2rem;
+}
+
+.box-1 {
+    background-color: red;
+}
+
+.box-2 {
+    background-color: gray;
+}
+
+.box-3 {
+    background-color: green;
+    padding: 10px;
+    box-sizing: border-box;
 }
