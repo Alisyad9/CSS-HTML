@@ -68,3 +68,21 @@ ul li a {
 .none {
     display: none;
 }
+
+.opacity-1 {
+    text-align: left;
+    color: red;
+    opacity: 1;
+}
+
+.opacity-2 {
+    text-align: left;
+    color: red;
+    opacity: 0.5;
+}
+
+.opacity-0 {
+    text-align: left;
+    color: red;
+    opacity: 0;
+}
