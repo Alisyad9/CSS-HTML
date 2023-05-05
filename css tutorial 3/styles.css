@@ -1,3 +1,20 @@
+body {
+    background: gray;
+}
 
+div {
+    height: 300px;
+    color: white;
+}
 
+.big_img {
+    background: url('./big.jpeg');
+}
 
+.small_img {
+    background: url('./small.jpeg');
+}
+
+.folder_img {
+    background: url('./images/folder-img.jpeg');
+}
