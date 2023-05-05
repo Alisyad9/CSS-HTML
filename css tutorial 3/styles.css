@@ -1,20 +1,27 @@
 body {
     background: gray;
+
 }
 
 div {
     height: 300px;
     color: white;
+    border: 2px solid blue;
 }
 
 .big_img {
     background: url('./big.jpeg');
+    background-size: cover;
 }
 
 .small_img {
     background: url('./small.jpeg');
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-size: cover;
 }
 
 .folder_img {
     background: url('./images/folder-img.jpeg');
+    background-size: contain;
 }
