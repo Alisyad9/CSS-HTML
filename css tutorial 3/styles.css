@@ -13,6 +13,7 @@ div {
     align-items: center;
     font-size: 2rem;
     text-transform: uppercase;
+
 }
 
 .big_img {
@@ -35,6 +36,6 @@ div {
 }
 
 .folder_img {
-    background: url('./images/folder-img.jpeg');
-    background-size: cover;
+    background: linear-gradient(rgba(0, 0, 0, 0.111), rgba(0, 0, 0, 0.709)), url('./images/folder-img.jpeg') center/cover no-repeat fixed;
+
 }
