@@ -7,21 +7,34 @@ div {
     height: 300px;
     color: white;
     border: 2px solid blue;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
 }
 
 .big_img {
     background: url('./big.jpeg');
     background-size: cover;
+    background-position: center;
 }
 
 .small_img {
-    background: url('./small.jpeg');
-    background-repeat: no-repeat;
-    background-repeat: repeat-x;
+    background: url('./big.jpeg');
     background-size: cover;
+    background-attachment: fixed;
+
+
+    /* background: url('./small.jpeg'); */
+    /* background-repeat: no-repeat;
+    background-position: right; */
+    /* background-position: inherit; */
+
 }
 
 .folder_img {
     background: url('./images/folder-img.jpeg');
-    background-size: contain;
+    background-size: cover;
 }
