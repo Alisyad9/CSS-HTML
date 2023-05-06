@@ -10,13 +10,11 @@ body {
 }
 
 .nav {
-    height: 60px;
+    height: 5rem;
     background: #222;
-    padding: 15px;
+    padding: 1rem 0;
 
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    text-align: left;
+
 }
 
 .nav_title {
@@ -24,15 +22,48 @@ body {
     font-weight: bolder;
     color: #fff;
 
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /* text-align: left; */
 }
 
 .nav_center {
-    width: 300px;
-    max-width: 10px;
-    /* margin: 0 auto; */
+    width: 90vw;
+    max-width: 1170px;
+    margin: 0 auto;
+
 }
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.564), rgba(0, 0, 0, 0.105)), url(./hero-bcg.jpg) center/cover no-repeat fixed;
-    min-height: calc(100vh - 60px);
+    background: linear-gradient(to right, rgba(212, 132, 21, 0.294), rgba(0, 0, 0, 0.5)), url(./hero-bcg.jpg) center/cover no-repeat fixed;
+    min-height: calc(100vh - 5rem);
+}
+
+.hero_center {
+    width: 90vw;
+    max-width: 1170px;
+    margin: 0 auto;
+
+    color: white;
+    padding: 5rem 0;
+}
+
+.hero_center h1 {
+    letter-spacing: 0.5rem;
+    text-transform: capitalize;
+    margin-bottom: 2rem;
+}
+
+.hero_center p {
+    max-width: 35em;
+    margin-bottom: 2rem;
+}
+
+.btn_hero {
+    background: transparent;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: white;
+    border: 2px solid white;
+    padding: 10px 1rem;
 }
