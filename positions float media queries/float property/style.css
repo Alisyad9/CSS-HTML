@@ -1,3 +1,27 @@
 body {
     background: gray;
 }
+
+.banner {
+    border: 1px solid red;
+    padding: 2rem;
+}
+
+.one {
+
+    float: left;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.two {
+
+    float: right;
+    border: 1px solid red;
+    padding: 5px;
+    height: 10px;
+}
+
+p {
+    clear: both;
+}
