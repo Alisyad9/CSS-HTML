@@ -1,0 +1,5 @@
+/* 
+::before ::after pseudo-elements creates element and inserts before and after CONTENT
+content:'' - required
+img --- does not work
+*/
