@@ -3,3 +3,12 @@
 content:'' - required
 img --- does not work
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: lightblue;
+}
