@@ -12,3 +12,7 @@ img --- does not work
 body {
     background: lightblue;
 }
+
+p {
+    background: yellow;
+}
