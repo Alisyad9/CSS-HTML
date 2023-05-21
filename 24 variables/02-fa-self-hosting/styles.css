@@ -6,7 +6,13 @@
   font-size: 2rem;
   color: red;
 }
+
 .special {
   font-size: 4rem;
   color: blue;
+}
+
+.fa-cat {
+  font-size: 5rem;
+  color: yellow;
 }
