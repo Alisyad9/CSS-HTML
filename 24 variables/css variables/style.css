@@ -6,6 +6,8 @@ body {
     --primaryColour: black;
     --secondaryColour: blue;
     --p-colour: yellow;
+    --transition: all 2s linear;
+    --mainSpacing: 2px;
 
 }
 
@@ -26,5 +28,8 @@ h3 {
 }
 
 .main_text {
-    color: var(--p-colour)
+    color: var(--p-colour);
+    letter-spacing: var(--mainSpacing);
+    transition: var(--transition);
+
 }
