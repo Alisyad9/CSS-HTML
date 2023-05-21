@@ -1,10 +1,11 @@
 body {
-    background: gray;
+    background: rgb(188, 182, 182);
 }
 
 :root {
     --primaryColour: black;
     --secondaryColour: blue;
+    --p-colour: yellow;
 
 }
 
@@ -18,4 +19,12 @@ h2 {
 
 h3 {
     color: blue;
+}
+
+.main {
+    color: var(--secondaryColour);
+}
+
+.main_text {
+    color: var(--p-colour)
 }
