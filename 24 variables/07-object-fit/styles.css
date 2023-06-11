@@ -23,11 +23,12 @@ img {
   width: 45%;
 }
 
-/* 
+
 nav h2:hover {
   color: red;
   transition: all 2s ease;
-} */
+}
+
 :is(nav, header) h2:hover {
   color: red;
   transition: all 1s ease;
