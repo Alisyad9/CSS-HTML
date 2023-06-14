@@ -24,7 +24,7 @@ img {
 }
 
 
-nav h2:hover {
+/* nav h2:hover {
   color: red;
   transition: all 2s ease;
 }
@@ -33,7 +33,7 @@ nav h2:hover {
   color: red;
   transition: all 1s ease;
 
-}
+} */
 
 .box {
   width: 100px;
