@@ -4,6 +4,16 @@
   box-sizing: border-box;
 }
 
+:root {}
+
 img {
   width: 100%;
+}
+
+
+
+dive {
+  width: 100%;
+  display: flexbox;
+
 }
