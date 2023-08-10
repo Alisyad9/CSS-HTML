@@ -1,1 +1,30 @@
+/* 
+================================================================
+Font import 
+================================================================
+*/
 @import url("https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel");
+
+
+
+/* 
+================================================================
+variables
+================================================================
+ */
+
+:root {
+    --colour-primary: green;
+    --colour-primary-light: rgb(13, 199, 13);
+    --colour-gray1: gray;
+    --colour-gray2: rgb(187, 186, 186);
+    --colour-gray3: rgb(230, 227, 227);
+    --colour-white: white;
+    --fontfamily-primary: 'Catamaran', 'sans-serif';
+    --fontfamily-secondary: 'Grand Hotel', cursive;
+    --transition: all 0.3 linear;
+    --spacing: 0.25rem;
+    --radius: 0.5rem;
+
+
+}
