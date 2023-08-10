@@ -65,3 +65,27 @@ body {
 .blog:hover {
   box-shadow: var(--shadow--dark);
 }
+
+.blog-center {
+  padding: 2rem;
+
+
+}
+
+.blog-center span {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  letter-spacing: var(--letter-spacing);
+  font-weight: bolder;
+
+
+}
+
+.tag {
+  text-transform: uppercase;
+  color: var(--primary-color);
+  margin-top: 2rem;
+
+
+
+}
