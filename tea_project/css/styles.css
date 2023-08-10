@@ -13,6 +13,13 @@ variables
 ================================================================
  */
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
 :root {
     --colour-primary: green;
     --colour-primary-light: rgb(13, 199, 13);
@@ -27,4 +34,82 @@ variables
     --radius: 0.5rem;
 
 
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+body {
+    font-family: var(--fontfamily-primary);
+    background: var(--colour-white);
+    color: var(--colour-gray1);
+    line-height: 1.5;
+    font-size: 0.85rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1.25;
+    margin-bottom: 1rem;
+}
+
+h1 {
+    font-size: 3rem
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h1 {
+    font-size: 1rem;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+    }
+
+    h3 {
+        font-size: 2rem;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    body {
+        font-size: 1rem;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+        line-height: 1;
+    }
 }
