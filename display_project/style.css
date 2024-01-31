@@ -20,13 +20,13 @@ body {
     text-transform: capitalize;
 }
 
-.title_underline {
+/* .title_underline {
     height: 2px;
     width: 100px;
     background: red;
     margin: 0 auto;
     margin-bottom: 2rem
-}
+} */
 
 .section_center {
     width: 80vw;
